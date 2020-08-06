@@ -1,6 +1,6 @@
 var ringer = {
   //countdown_to: "10/31/2014",
-  countdown_to: "08/06/2020 17:30:00",
+  countdown_to: "08/07/2020 11:30:00",
   rings: {
     /*  'HORAS': {
         s: 3600000, // mseconds per hour,
