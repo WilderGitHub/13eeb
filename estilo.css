@@ -1,0 +1,225 @@
+@import url(https://fonts.googleapis.com/css?family=Caveat);
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+
+h1 {
+  color: rgb(185, 142, 2);
+  font-size: 5vw;
+  /* font-family:  Impact, Haettenschweiler, 'Arial Narrow', sans-serif;  */
+  font-family: "Cabin", sans-serif;
+  line-height: 85%;
+  margin: 0px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+h2 {
+  color: yellow;
+  font-size: 3vw;
+  padding-top: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0px;
+}
+h3 {
+  color: black;
+  font-size: 3vw;
+  padding-top: 0px;
+  /* font-family: Caveat; */
+  font-family: "Parisienne", cursive;
+  margin: 0px;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  /*   display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    align-content: center */
+}
+
+canvas {
+  width: 50%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* align-content: center; */
+
+  /* position:center;  */
+  /* background: red;  */
+  /* padding-left: 30vw; */
+  /* margin: 200px auto; */
+}
+
+body {
+  /* background: red; */
+  /*background-image: url("https://esacademic.com/pictures/eswiki/83/Skyline_of_La_Paz_Bolivia.jpg");*/
+  /* background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('LP.jpg');
+    background-position: top center;
+    background-size: cover; */
+  /*color: #fff;*/
+
+  /* background: rgb(31,78,133);
+    background: linear-gradient(90deg, rgba(31,78,133,1) 0%, rgba(9,25,54,1) 48%, rgba(0,47,103,1) 100%); */
+
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+  height: 100%;
+  width: 100%;
+  /*  display: flex;
+    flex-direction: row;
+    align-items:center;  
+    justify-content:center;
+    align-content: center */
+}
+#wraper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+  width: 100%;
+}
+#envoltorioLogo {
+  /* background-color: gray; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content:center; */
+  align-content: center;
+  /* vertical-align: middle */
+
+  height: auto;
+  width: 100%;
+  padding-left: 5%;
+}
+
+div {
+  height: 100%;
+  width: 100%;
+}
+#trece {
+  width: 40%;
+  text-align: end;
+  padding-top: 5%;
+}
+#eltrece {
+  font-size: 10vw;
+}
+#encuentro {
+  font-size: 10vw;
+  padding-top: 0%;
+}
+#div1 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+#div2 {
+  /* background-color:gray; */
+
+  height: 120%;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  /* transform: rotate(-10deg);
+    border-radius: 50%;
+    box-shadow:20px 20px 50px 15px grey;   */
+}
+/* .mySlides{
+    transform: rotate(10deg);
+    border-radius: 50%;
+    box-shadow:20px 20px 50px 15px grey;  
+  } */
+#conoce {
+  position: fixed;
+  font-size: 6vw;
+  top: 10%;
+  right: 20%;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, sans-serif;
+}
+
+.mySlides {
+  display: none;
+}
+
+.redondo {
+  height: 100%;
+  width: 150%;
+  object-fit: cover;
+  /* object-fit: scale-down; */
+  vertical-align: middle;
+
+  border-radius: 35% 0% 0% 35%;
+  box-shadow: 50px 20px 50px 15px grey;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 5s;
+}
+
+/*  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  } */
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+    transform: scale(1, 1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.05, 1.05);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.1, 1.1);
+  }
+}
+
+/* On smaller screens, decrease text size */
+/* @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+ */
+#logobcb {
+  height: 200px;
+  width: auto;
+}
